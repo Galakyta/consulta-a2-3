@@ -8,3 +8,4 @@ public class Compras implements Observer {
     }
 }
 }
+//so um exemplo dos observadores, por isso q a gente passa o subject por parametro

@@ -13,3 +13,4 @@ public double calcularCobranca(int minutos){
     return (valorFixo - valorFixo * desconto) * horas;
 }
 }
+//implementa a estrategia

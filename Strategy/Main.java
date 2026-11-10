@@ -11,6 +11,8 @@ public class Main {
 
         Tiquete tiquete1 = new Tiquete("bcz-123", 301, new Rotativo());
 
+        //faz um tiquete e joga na estrategia
+
         tiquete1.resumoDoTiquete();
 
         tiquete1.setModalidade(conveniado);
@@ -18,6 +20,10 @@ public class Main {
         tiquete1.resumoDoTiquete();
 
         tiquete1.setModalidade(mensalista);
+
+        tiquete1.resumoDoTiquete();
+
+        tiquete1.setModalidade(rotativo);
 
         tiquete1.resumoDoTiquete();
         

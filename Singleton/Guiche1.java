@@ -13,3 +13,4 @@ public class Guiche1 {
         System.out.println("ultima senha impressa: " + GeradorDeSenhaSingleton.getInstancia().getContagem());
     }
 }
+//todos os guiches tao de boa so chamar pelo gerador ou seja la qual seja o singleton,

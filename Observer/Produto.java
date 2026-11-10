@@ -38,3 +38,5 @@ public class Produto implements Subject {
         pingarObservers();
     }
 }
+
+//produto e so o subject da vez, mas a base e a mesma, subject = oq vai ser observado

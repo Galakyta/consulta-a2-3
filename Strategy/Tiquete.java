@@ -30,4 +30,6 @@ public class Tiquete {
     }
 
 
+    //a classe do que vai receber a estrategia precisa ficar separado
+
 }

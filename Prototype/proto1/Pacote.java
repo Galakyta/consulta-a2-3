@@ -2,7 +2,9 @@ package Prototype.proto1;
 import java.util.ArrayList;
 import java.util.List;
 
+//a array list e pros passeios, o clone e private e acessado pelo metodo clonar tlgd
 
+//copia deep = cria um novo igual, copia rasa = clona mas a aponta pro mesmo lugar
 public class Pacote implements Prototipo<Pacote> {
     private List<String> passeios = new ArrayList<>();
     private String destino;
